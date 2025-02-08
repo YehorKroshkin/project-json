@@ -1,0 +1,84 @@
+[
+  {
+    "id": "LABEL-101",
+    "name": "Neon Groove Records",
+    "labelLogoUrl": "https://covers.stocktune.com/public/2/a/4/2a4508af-b1bf-4dd2-b4b0-cb75b7b82c4c_large/groove-under-neon-lights-stocktune.jpg",
+    "foundedYear": 2010,
+    "founder": "Maxwell Turner",
+    "headquarters": "Los Angeles, California"
+  },
+  {
+    "id": "LABEL-102",
+    "name": "Polyphonic Sound Records",
+    "labelLogoUrl": "https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRGd4SHdFPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--dce24f2323fbfae06f453bfd4a35d1861baeaab4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3docEFuZ0ZhUUo0QlhzR09nbGpjbTl3T2d0alpXNTBjbVU2RUdSbFptRjFiSFJmZFhKc1NTSTVhSFIwY0hNNkx5OTNkM2N1WW5WNmVuTndjbTkxZEM1amIyMHZhVzFoWjJWekwyRnlkSGR2Y210elgyeGhjbWRsTG1wd1p3WTZCa1ZVT2dwellYWmxjbnNHT2d4eGRXRnNhWFI1YVVFNkVHTnZiRzkxY25Od1lXTmxTU0lKYzNKbllnWTdDMVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2a89ede784d6e184500689d6dcbd55b204c8d4ad/POLYPHONIC%20(1)-1.JPG",
+    "foundedYear": 2015,
+    "founder": "Jared Smith",
+    "headquarters": "Melbourne, Australia"
+  },
+  {
+    "id": "LABEL-103",
+    "name": "Groove Movement",
+    "labelLogoUrl": "https://i1.sndcdn.com/visuals-000876729973-68k3M5-t1240x260.jpg",
+    "foundedYear": 2012,
+    "founder": "Lena Schwarz",
+    "headquarters": "Berlin, Germany"
+  },
+  {
+    "id": "LABEL-104",
+    "name": "Soulwave Records",
+    "labelLogoUrl": "https://geo-media.beatport.com/image_size/1400x1400/6c41b194-4563-4184-a511-5cd7d1dd1792.jpg",
+    "foundedYear": 2014,
+    "founder": "Michael Johnson",
+    "headquarters": "New York, USA"
+  },
+  {
+    "id": "LABEL-105",
+    "name": "Darkwave Industries",
+    "labelLogoUrl": "https://m.media-amazon.com/images/I/81uiPcaTmYL._UF894,1000_QL80_.jpg",
+    "foundedYear": 2010,
+    "founder": "Viktor Zorn",
+    "headquarters": "London, UK"
+  },
+  {
+    "id": "LABEL-106",
+    "name": "TechnoForce",
+    "labelLogoUrl": "https://5pinmedia.com/wp-content/uploads/2024/12/TF1-Cover.jpg",
+    "foundedYear": 2012,
+    "founder": "Igor Pavlov",
+    "headquarters": "Moscow, Russia"
+  },
+  {
+    "id": "LABEL-107",
+    "name": "Energetic Sounds",
+    "labelLogoUrl": "https://taraenergy.com/wp-content/uploads/2021/08/sound-energy-sound-wave-illustration.jpg",
+    "foundedYear": 2016,
+    "founder": "Carlos Mendez",
+    "headquarters": "Madrid, Spain"
+  },
+  {
+    "id": "LABEL-108",
+    "name": "Noise Division",
+    "labelLogoUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/324ee724389509.563335f486609.jpg",
+    "foundedYear": 2011,
+    "founder": "Marcus Wolf",
+    "headquarters": "Berlin, Germany"
+  },
+  {
+    "id": "LABEL-109",
+    "name": "MinimalBeats",
+    "labelLogoUrl": "https://images.wallpapersden.com/image/download/music-equalizer-minimal_a2ZmbmuUmZqaraWkpJRobWllrWdma2U.jpg",
+    "foundedYear": 2013,
+    "founder": "Senne Van Dijk",
+    "headquarters": "Antwerpen, Belgium"
+  },
+  {
+    "id": "LABEL-110",
+    "name": "DarkRave Records",
+    "labelLogoUrl": "https://i.pinimg.com/474x/b3/d6/b4/b3d6b4d9153269524d595af1d1039db7.jpg",
+    "foundedYear": 2017,
+    "founder": "Jan Schwanz",
+    "headquarters": "Berlin, Germany"
+  }
+  ]
+  
+

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "ART-001",
+    "name": "MCR-T",
+    "description": "MCR-T is an underground electronic artist known for his heavy basslines and experimental sounds, pushing the boundaries of techno and industrial music.",
+    "age": 29,
+    "isActive": true,
+    "birthDate": "1994-08-12",
+    "imageUrl": "https://s3-us-west-1.amazonaws.com/wass-media-library/music_artists/mcr-t-20250205.jpg",
+    "genre": "Techno/Industrial",
+    "instruments": ["Drums", "Synthesizer", "Bass"],
+    "recordLabel": {
+      "id": "LABEL-101",
+      "name": "Neon Groove Records",
+      "labelLogoUrl": "https://covers.stocktune.com/public/2/a/4/2a4508af-b1bf-4dd2-b4b0-cb75b7b82c4c_large/groove-under-neon-lights-stocktune.jpg",
+      "foundedYear": 2010,
+      "founder": "Maxwell Turner",
+      "headquarters": "Los Angeles, California"
+    }
+  },
+  {
+    "id": "ART-002",
+    "name": "PARTIBOI69",
+    "description": "PARTIBOI69 is an Australian artist who blends house, techno, and experimental styles, known for his unique performances and viral presence on social media.",
+    "age": 30,
+    "isActive": true,
+    "birthDate": "1993-03-20",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/54faf78ce4b04da0abdfbde8/1586964250041-5KEPIV33EKM5ULJ0M674/partiboi69-03.jpg",
+    "genre": "House/Techno",
+    "instruments": ["Vocals", "Drum Machine", "Synthesizer"],
+    "recordLabel": {
+      "id": "LABEL-102",
+      "name": "Polyphonic Sound Records",
+      "labelLogoUrl": "https://www.buzzsprout.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRGd4SHdFPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--dce24f2323fbfae06f453bfd4a35d1861baeaab4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBPZ2hxY0djNkUzSmxjMmw2WlY5MGIxOW1hV3hzV3docEFuZ0ZhUUo0QlhzR09nbGpjbTl3T2d0alpXNTBjbVU2RUdSbFptRjFiSFJmZFhKc1NTSTVhSFIwY0hNNkx5OTNkM2N1WW5WNmVuTndjbTkxZEM1amIyMHZhVzFoWjJWekwyRnlkSGR2Y210elgyeGhjbWRsTG1wd1p3WTZCa1ZVT2dwellYWmxjbnNHT2d4eGRXRnNhWFI1YVVFNkVHTnZiRzkxY25Od1lXTmxTU0lKYzNKbllnWTdDMVE9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--2a89ede784d6e184500689d6dcbd55b204c8d4ad/POLYPHONIC%20(1)-1.JPG",
+      "foundedYear": 2015,
+      "founder": "Jared Smith",
+      "headquarters": "Melbourne, Australia"
+    }
+  },
+  {
+    "id": "ART-003",
+    "name": "Klangkuenstler",
+    "description": "Klangkuenstler is a German DJ and producer who brings deep house and tech house music to life with a minimalist approach, becoming a prominent figure in the European underground scene.",
+    "age": 31,
+    "isActive": true,
+    "birthDate": "1992-01-17",
+    "imageUrl": "https://www.hardbeats.org//images/2024/10/23/klangkuenstler.jpg",
+    "genre": "Deep House/Tech House",
+    "instruments": ["Synthesizer", "Drum Machine"],
+    "recordLabel": {
+      "id": "LABEL-103",
+      "name": "Groove Movement",
+      "labelLogoUrl": "https://i1.sndcdn.com/visuals-000876729973-68k3M5-t1240x260.jpg",
+      "foundedYear": 2012,
+      "founder": "Lena Schwarz",
+      "headquarters": "Berlin, Germany"
+    }
+  },
+  {
+    "id": "ART-004",
+    "name": "Sara Landry",
+    "description": "Sara Landry is an American singer-songwriter known for her soulful voice and fusion of pop with acoustic ballads.",
+    "age": 27,
+    "isActive": true,
+    "birthDate": "1996-04-25",
+    "imageUrl": "https://exronmusic.com/wp-content/uploads/2024/08/Snapinsta.app_450428111_18449088868024148_8470400936108040290_n_1080.jpg",
+    "genre": "Pop/Soul",
+    "instruments": ["Vocals", "Guitar"],
+    "recordLabel": {
+      "id": "LABEL-104",
+      "name": "Soulwave Records",
+      "labelLogoUrl": "https://geo-media.beatport.com/image_size/1400x1400/6c41b194-4563-4184-a511-5cd7d1dd1792.jpg",
+      "foundedYear": 2014,
+      "founder": "Michael Johnson",
+      "headquarters": "New York, USA"
+    }
+  },
+  {
+    "id": "ART-005",
+    "name": "999999999",
+    "description": "999999999 is a mysterious experimental artist who creates haunting and atmospheric music by blending noise, industrial, and ambient elements.",
+    "age": 32,
+    "isActive": true,
+    "birthDate": "1991-05-30",
+    "imageUrl": "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2022/07/16052216/97765b64-f3a9-11ed-b991-0ee6b8365494-972x597.jpg",
+    "genre": "Noise/Industrial",
+    "instruments": ["Samples", "Synthesizers", "Drum Machine"],
+    "recordLabel": {
+      "id": "LABEL-105",
+      "name": "Darkwave Industries",
+      "labelLogoUrl": "https://m.media-amazon.com/images/I/81uiPcaTmYL._UF894,1000_QL80_.jpg",
+      "foundedYear": 2010,
+      "founder": "Viktor Zorn",
+      "headquarters": "London, UK"
+    }
+  },
+  {
+    "id": "ART-006",
+    "name": "CEKTA",
+    "description": "CEKTA is a Russian techno producer who is known for his intense and driving beats, blending traditional techno with modern experimental sounds.",
+    "age": 28,
+    "isActive": true,
+    "birthDate": "1995-02-13",
+    "imageUrl": "https://i1.sndcdn.com/artworks-AWkoz43pQ3NczSQs-EJdYpw-t500x500.jpg",
+    "genre": "Techno",
+    "instruments": ["Drum Machine", "Synthesizer"],
+    "recordLabel": {
+      "id": "LABEL-106",
+      "name": "TechnoForce",
+      "labelLogoUrl": "https://5pinmedia.com/wp-content/uploads/2024/12/TF1-Cover.jpg",
+      "foundedYear": 2012,
+      "founder": "Igor Pavlov",
+      "headquarters": "Moscow, Russia"
+    }
+  },
+  {
+    "id": "ART-007",
+    "name": "Nico Moreno",
+    "description": "Nico Moreno is a Spanish DJ and producer known for his uplifting and energetic house music, widely appreciated for his crowd-pleasing live sets.",
+    "age": 26,
+    "isActive": true,
+    "birthDate": "1997-06-03",
+    "imageUrl": "https://i1.sndcdn.com/avatars-Y0jw5fjsLyn8Gq04-lz9G0w-t1080x1080.jpg",
+    "genre": "House",
+    "instruments": ["DJ Set", "Synthesizer"],
+    "recordLabel": {
+      "id": "LABEL-107",
+      "name": "Energetic Sounds",
+      "labelLogoUrl": "https://taraenergy.com/wp-content/uploads/2021/08/sound-energy-sound-wave-illustration.jpg",
+      "foundedYear": 2016,
+      "founder": "Carlos Mendez",
+      "headquarters": "Madrid, Spain"
+    }
+  },
+  {
+    "id": "ART-008",
+    "name": "BRUTALISMUS3000",
+    "description": "BRUTALISMUS3000 is an avant-garde electronic artist who focuses on extreme experimental sounds and noise music, known for his intense performances.",
+    "age": 33,
+    "isActive": true,
+    "birthDate": "1990-07-10",
+    "imageUrl": "https://i1.sndcdn.com/artworks-ehokZbzc9IOS51z2-aTiKFQ-t1080x1080.jpg",
+    "genre": "Noise/Experimental",
+    "instruments": ["Synthesizers", "Sound Manipulation"],
+    "recordLabel": {
+      "id": "LABEL-108",
+      "name": "Noise Division",
+      "labelLogoUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/324ee724389509.563335f486609.jpg",
+      "foundedYear": 2011,
+      "founder": "Marcus Wolf",
+      "headquarters": "Berlin, Germany"
+    }
+  },
+  {
+    "id": "ART-009",
+    "name": "FOXA",
+    "description": "FOXA is a Brazilian DJ known for her unique blend of house, techno, and minimal styles, delivering energetic sets across international festivals.",
+    "age": 29,
+    "isActive": true,
+    "birthDate": "1994-11-01",
+    "imageUrl": "https://www.platformagency.be/img/1/93132-31611-foxa-8c56fed5f8b0af5f.png",
+    "genre": "House/Techno",
+    "instruments": ["DJ Set", "Synthesizer"],
+    "recordLabel": {
+      "id": "LABEL-109",
+      "name": "MinimalBeats",
+      "labelLogoUrl": "https://images.wallpapersden.com/image/download/music-equalizer-minimal_a2ZmbmuUmZqaraWkpJRobWllrWdma2U.jpg",
+      "foundedYear": 2013,
+      "founder": "Senne Van Dijk",
+      "headquarters": "Antwerpen, Belgium"
+    }
+  },
+  {
+    "id": "ART-010",
+    "name": "DJ Jarak",
+    "description": "DJ Jarak is an emerging star in the techno scene, known for his deep basslines and dark melodies that create a captivating atmosphere on the dancefloor.",
+    "age": 27,
+    "isActive": true,
+    "birthDate": "1996-09-05",
+    "imageUrl": "https://i1.sndcdn.com/artworks-nFpBJJZTWbwvhfqp-mpf2IQ-t240x240.jpg",
+    "genre": "Techno",
+    "instruments": ["DJ Set", "Synthesizer", "Drum Machine"],
+    "recordLabel": {
+      "id": "LABEL-110",
+      "name": "DarkRave Records",
+      "labelLogoUrl": "https://i.pinimg.com/474x/b3/d6/b4/b3d6b4d9153269524d595af1d1039db7.jpg",
+      "foundedYear": 2017,
+      "founder": "Jan Schwanz",
+      "headquarters": "Berlin, Germany"
+}
+}
+]
