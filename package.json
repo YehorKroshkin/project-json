@@ -1,0 +1,22 @@
+{
+  "name": "project-json",
+  "version": "1.0.0",
+  "description": "Terminal_App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YehorKroshkin/project-json.git"
+  },
+  "author": "Yehor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YehorKroshkin/project-json/issues"
+  },
+  "homepage": "https://github.com/YehorKroshkin/project-json#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.5"
+  }
+}
