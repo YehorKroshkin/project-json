@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= artist.name %> - Details</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1><%= artist.name %></h1>
+  <img src="<%= artist.imageUrl %>" alt="<%= artist.name %>" style="width: 300px; height: auto;">
+  <p><strong>Genre:</strong> <%= artist.genre %></p>
+  <p><strong>Age:</strong> <%= artist.age %></p>
+  <p><strong>Instruments:</strong> <%= artist.instruments.join(', ') %></p>
+  <p><strong>Description:</strong> <%= artist.description %></p>
+  <p><strong>Record Label:</strong> <%= artist.recordLabel.name %></p>
+  <a href="/">Back to Artists List</a>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* Стиль для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Стиль для заголовка */
+  h1 {
+    color: #333;
+  }
+  
+  /* Стиль для изображений */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Стиль для абзацев */
+  p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Стили для ссылок */
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стили для таблицы */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  td img {
+    width: 100px;
+    height: auto;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artists</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Artists</h1>
+  
+  <!-- Таблица для отображения артистов с основными данными -->
+  <table id="artist-table">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Genre</th>
+        <th>Age</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% artists.forEach(artist => { %>
+        <tr>
+          <td><img src="<%= artist.imageUrl %>" alt="<%= artist.name %>"></td>
+          <td><%= artist.name %></td>
+          <td><%= artist.genre %></td>
+          <td><%= artist.age %></td>
+          <td><a href="/artists/<%= artist._id %>">More Info</a></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>
+
+
+

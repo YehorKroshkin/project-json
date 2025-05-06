@@ -39,13 +39,6 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const showMenu = () => {
-    console.log('\nWelcome to the Data Viewer!');
-    console.log('1. View all data');
-    console.log('2. Filter by ID');
-    console.log('3. Exit');
-};
-
 const viewAllData = () => {
     console.log('\nList of artists:');
     artists.forEach((artist) => {
