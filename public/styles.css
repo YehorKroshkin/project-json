@@ -1,71 +1,265 @@
-/* Стиль для всей страницы */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
-  }
-  
-  /* Стиль для заголовка */
-  h1 {
-    color: #333;
-  }
-  
-  /* Стиль для изображений */
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Стиль для абзацев */
-  p {
-    font-size: 1.2em;
-    color: #555;
-  }
-  
-  /* Стили для ссылок */
-  a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  a:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Стили для таблицы */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  th, td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-    color: #333;
-  }
-  
-  td img {
-    width: 100px;
-    height: auto;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+nav {
+  background-color: transparent;
+  background-color:#3498db;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  background-color: white;
+  color: #3498db;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar a:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+/* SEARCH  */
+.search-form {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-form input {
+  padding: 8px;
+  font-size: 16px;
+  width: 250px;
+}
+
+.search-form button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 16px 20px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+tr {
+  transition: background-color 0.2s ease-in-out;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e6f7ff;
+}
+
+td img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+a {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+a:hover {
+  background-color: #1c5980;
+}
+
+.artist-name {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Стиль для контейнера с деталями артиста */
+.artist-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Стиль для карточки артиста */
+.artist-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.artist-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Стиль для изображения артиста */
+.artist-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Стиль для блока с информацией об артисте */
+.artist-info {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Стиль для элементов внутри блока с информацией */
+.artist-info p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+/* Стиль для кнопки возврата */
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.btn-left, .btn-center, .btn-right {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-left {
+  justify-content: flex-start;
+}
+
+.btn-right {
+  justify-content: flex-end;
+}
+
+.back-btn {
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #666;
+}
+
+
+/* labels */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#top {
+  color:#000000;
+  background-color: #ddd;
+}
+.data-table thead{
+  color:#007bff;
+}
+.table-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+

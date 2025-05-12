@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Record Labels</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">Record Labels</h1>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th id="top">Logo</th>
+          <th id="top">Name</th>
+          <th id="top">Founded</th>
+          <th id="top">Founder</th>
+          <th id="top">Headquarters</th>
+          <th id="top">Details</th> <!-- Новый столбец -->
+        </tr>
+      </thead>
+      <tbody>
+        <% labels.forEach(label => { %>
+          <tr>
+            <td><img src="<%= label.labelLogoUrl %>" alt="Logo" class="table-logo"></td>
+            <td><%= label.name %></td>
+            <td><%= label.foundedYear %></td>
+            <td><%= label.founder %></td>
+            <td><%= label.headquarters %></td>
+            <td>
+              <a href="/labels/<%= label.id %>" class="details-btn">Details</a> <!-- Ссылка на детальную страницу -->
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+    <a href="/" class="back-btn">← Back to Artists List</a>
+  </div>
+</body>
+</html>
+
+

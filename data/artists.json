@@ -158,13 +158,13 @@
     "age": 29,
     "isActive": true,
     "birthDate": "1994-11-01",
-    "imageUrl": "https://www.platformagency.be/img/1/93132-31611-foxa-8c56fed5f8b0af5f.png",
+    "imageUrl": "https://i.scdn.co/image/ab676161000051741696add239725fc02cec7666",
     "genre": "Hard Techno",
     "instruments": ["DJ Set", "Synthesizer"],
     "recordLabel": {
       "id": "LABEL-109",
       "name": "MinimalBeats",
-      "labelLogoUrl": "https://images.wallpapersden.com/image/download/music-equalizer-minimal_a2ZmbmuUmZqaraWkpJRobWllrWdma2U.jpg",
+      "labelLogoUrl": "https://i.scdn.co/image/ab67616d0000b273b3b3b53afb50c80df1ad28bb",
       "foundedYear": 2013,
       "founder": "Senne Van Dijk",
       "headquarters": "Antwerpen, Belgium"
