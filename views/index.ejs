@@ -6,14 +6,12 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <!-- Навигационное меню -->
 <nav>
   <ul class="navbar">
     <li><a href="/">Artists</a></li>
     <li><a href="/labels">Labels</a></li>
   </ul>
 </nav>
-<!-- Форма поиска -->
 <form action="/" method="GET" class="search-form">
   <input type="text" name="search" placeholder="Search artist by name..." value="<%= typeof search !== 'undefined' ? search : '' %>">
   <button type="submit">Search</button>
@@ -21,7 +19,6 @@
 
   <h1>Artists</h1>
   
-  <!-- Таблица для отображения артистов с основными данными -->
   <table id="artist-table">
     <thead>
   <tr>

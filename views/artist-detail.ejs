@@ -9,13 +9,9 @@
   <div class="container">
     <h1 class="artist-name"><%= artist.name %></h1>
 
-    <!-- Контейнер для деталей артиста -->
     <div class="artist-details">
-      <!-- Карточка артиста -->
       <div class="artist-card">
-        <!-- Изображение артиста -->
         <img src="<%= artist.imageUrl %>" alt="<%= artist.name %>" class="artist-image">
-        <!-- Информация о артисте -->
         <div class="artist-info">
           <p><strong>Genre:</strong> <%= artist.genre %></p>
           <p><strong>Age:</strong> <%= artist.age %></p>
@@ -30,8 +26,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Кнопка возврата -->
     <a href="/" class="back-btn">← Back to Artists List</a>
   </div>
 </body>

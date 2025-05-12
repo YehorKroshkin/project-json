@@ -2,44 +2,41 @@ import express from 'express';
 import fs from 'fs';
 import path from 'path';
 
-// Создаем приложение Express
 const app = express();
 app.set("port", 3000);
 
-// Путь к файлу artists.json
 const artistsFilePath = path.join('data', 'artists.json');
 const labelsFilePath = path.join('data', 'labels.json');
 
-// Функция для чтения данных из файла
 const readArtistsData = () => {
   try {
     const data = fs.readFileSync(artistsFilePath, 'utf-8');
-    return JSON.parse(data);  // Преобразуем JSON в JavaScript-объект
+    return JSON.parse(data);  
   } catch (err) {
     console.error('Ошибка чтения данных:', err);
-    return [];  // Если произошла ошибка, возвращаем пустой массив
+    return [];  
   }
 };
 const readLabelsData = () => {
   try {
     const dataLab = fs.readFileSync(labelsFilePath, 'utf-8');
-    return JSON.parse(dataLab);  // Преобразуем JSON в JavaScript-объект
+    return JSON.parse(dataLab);  
   } catch (err) {
     console.error('Ошибка чтения данных:', err);
-    return [];  // Если произошла ошибка, возвращаем пустой массив
+    return [];  
   }
 };
 
-// Массив данных артистов (читаем из файла)
+
 let artists = readArtistsData();
 let labels = readLabelsData();
-// Устанавливаем папку с изображениями
+
 app.use(express.static('public'));
 
-// Устанавливаем шаблонизатор EJS
+
 app.set('view engine', 'ejs');
 
-// Роут для отображения всех артистов
+
 app.get('/', (req, res) => {
   const search = req.query.search?.toLowerCase() || '';
   const sortBy = req.query.sortBy || '';
@@ -47,27 +44,27 @@ app.get('/', (req, res) => {
 
   let filteredArtists = artists;
 
-  // Поиск
+
   if (search) {
     filteredArtists = filteredArtists.filter(artist =>
       artist.name.toLowerCase().includes(search)
     );
   }
 
-  // Сортировка
+
   if (sortBy) {
     filteredArtists.sort((a, b) => {
       let valA = a[sortBy];
       let valB = b[sortBy];
 
-      // Для строк сортировка по localeCompare
+
       if (typeof valA === 'string' && typeof valB === 'string') {
         return order === 'asc'
           ? valA.localeCompare(valB)
           : valB.localeCompare(valA);
       }
 
-      // Для чисел (например, age)
+
       if (typeof valA === 'number' && typeof valB === 'number') {
         return order === 'asc' ? valA - valB : valB - valA;
       }
@@ -85,7 +82,7 @@ app.get('/labels', (req, res) => {
   console.log(labels);
 });
 
-// Роут для страницы конкретного артиста
+
 app.get('/artist/:id', (req, res) => {
   console.log(`Requesting artist with ID: ${req.params.id}`);
   const artist = artists.find(a => a.id === req.params.id);
@@ -106,7 +103,7 @@ app.get('/labels/:id', (req, res) => {
   }
 });
 
-// Запуск сервера
+
 app.listen(app.get("port"), () =>
   console.log("[server] http://localhost:" + app.get("port"))
 );

@@ -9,14 +9,13 @@
   <div class="container">
     <h1 class="artist-name"><%= label.name %></h1>
 
-    <!-- Контейнер для деталей лейбла -->
+
     <div class="artist-details">
-      <!-- Карточка лейбла -->
+
       <div class="artist-card">
-        <!-- Логотип лейбла -->
+
         <img src="<%= label.labelLogoUrl %>" alt="<%= label.name %>" class="artist-image">
         
-        <!-- Информация о лейбле -->
         <div class="artist-info">
           <p><strong>Founded:</strong> <%= label.foundedYear %></p>
           <p><strong>Founder:</strong> <%= label.founder %></p>
@@ -25,7 +24,6 @@
       </div>
     </div>
 
-    <!-- Кнопка возврата -->
    <div class="button-row">
   <div class="btn-left">
     <button onclick="window.history.back()" class="back-btn">← Back to Artist </button>

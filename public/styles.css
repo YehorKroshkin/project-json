@@ -131,7 +131,6 @@ a:hover {
   margin-bottom: 10px;
 }
 
-/* Стиль для контейнера с деталями артиста */
 .artist-details {
   display: flex;
   justify-content: center;
@@ -141,7 +140,6 @@ a:hover {
   flex-wrap: wrap;
 }
 
-/* Стиль для карточки артиста */
 .artist-card {
   background-color: #fff;
   border-radius: 15px;
@@ -158,7 +156,6 @@ a:hover {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Стиль для изображения артиста */
 .artist-image {
   width: 100%;
   height: 300px;
@@ -166,19 +163,16 @@ a:hover {
   border-bottom: 2px solid #ddd;
 }
 
-/* Стиль для блока с информацией об артисте */
 .artist-info {
   padding: 20px;
   line-height: 1.6;
 }
 
-/* Стиль для элементов внутри блока с информацией */
 .artist-info p {
   margin: 10px 0;
   font-size: 1.1em;
 }
 
-/* Стиль для кнопки возврата */
 .back-btn {
   display: inline-block;
   margin-top: 30px;
